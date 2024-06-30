@@ -1,8 +1,8 @@
-http://localhost:4000/2024/05/30/hello-world/
-http://localhost:4000/404.html
-http://localhost:4000/friends/index.html
-http://localhost:4000/contact/index.html
-http://localhost:4000/about/index.html
-http://localhost:4000/tags/index.html
-http://localhost:4000/categories/index.html
-http://localhost:4000/
+https://blog.lemen.asia/2024/05/30/hello-world/
+https://blog.lemen.asia/404.html
+https://blog.lemen.asia/friends/index.html
+https://blog.lemen.asia/contact/index.html
+https://blog.lemen.asia/about/index.html
+https://blog.lemen.asia/tags/index.html
+https://blog.lemen.asia/categories/index.html
+https://blog.lemen.asia/

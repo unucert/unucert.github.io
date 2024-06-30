@@ -401,7 +401,19 @@
             
             
             
+                
             
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
             
             <br>
 
@@ -417,8 +429,8 @@
                         var years = days * 365;
                         var today = new Date();
                         var startYear = "2024";
-                        var startMonth = "6";
-                        var startDate = "0";
+                        var startMonth = "3";
+                        var startDate = "14";
                         var startHour = "0";
                         var startMinute = "0";
                         var startSecond = "0";
@@ -464,7 +476,7 @@
             <br>
             
         </div>
-        <div class="col s12 m4 l4 social-link ">
+        <div class="col s12 m4 l4 social-link social-statis">
 
 
     <a href="mailto:1339364607@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
@@ -644,7 +656,7 @@ $(function () {
         <script type="text/javascript">
           var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
           var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
-          var cookieDomain = "http://localhost:4000"; //Cookie地址, 一定要设定, 通常为你的网址
+          var cookieDomain = "https://blog.lemen.asia"; //Cookie地址, 一定要设定, 通常为你的网址
           var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
           var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
           var translateButtonId = "translateLink"; //默认互换id
@@ -687,6 +699,8 @@ $(function () {
     
     <script src="/libs/others/clicklove.js" async="async"></script>
     
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
